@@ -1,6 +1,6 @@
 Independent deployment
 HTTP port: 6061
-Database: ShaHmMusicNew20261115
+Database: bilal
 Shared assistant session: explicitly requested by owner
 Start: sudo docker compose -p bilal -f compose.isolated.yml up -d
 Logs: sudo docker logs --tail 100 bilal
