@@ -1,0 +1,196 @@
+[trivia]
+كم عدد أيام الأسبوع؟|How many days are in a week?|7|7|5|5|6|6|8|8
+كم عدد أشهر السنة؟|How many months are in a year?|12|12|10|10|11|11|13|13
+كم دقيقة في الساعة؟|How many minutes are in an hour?|60|60|30|30|90|90|100|100
+كم ثانية في الدقيقة؟|How many seconds are in a minute?|60|60|24|24|100|100|12|12
+كم سنتيمتراً في المتر؟|How many centimeters are in a meter?|100|100|10|10|1000|1000|60|60
+كم متراً في الكيلومتر؟|How many meters are in a kilometer?|1000|1000|100|100|10|10|500|500
+كم ضلعاً للمربع؟|How many sides does a square have?|4|4|3|3|5|5|6|6
+كم ضلعاً للمسدس؟|How many sides does a hexagon have?|6|6|5|5|7|7|8|8
+كم درجة في الزاوية القائمة؟|How many degrees are in a right angle?|90|90|45|45|60|60|180|180
+كم درجة في دورة كاملة؟|How many degrees are in a full turn?|360|360|180|180|90|90|270|270
+كم عدد كواكب المجموعة الشمسية؟|How many planets are in the Solar System?|8|8|7|7|9|9|10|10
+ما أقرب كوكب إلى الشمس؟|Which planet is closest to the Sun?|عطارد|Mercury|المريخ|Mars|الأرض|Earth|زحل|Saturn
+ما أكبر كوكب في المجموعة الشمسية؟|Which is the largest planet in the Solar System?|المشتري|Jupiter|المريخ|Mars|نبتون|Neptune|الزهرة|Venus
+ما النجم الأقرب إلى الأرض؟|Which star is closest to Earth?|الشمس|The Sun|الشعرى اليمانية|Sirius|نجم القطب|Polaris|منكب الجوزاء|Betelgeuse
+ما القمر الطبيعي للأرض؟|What is Earth's natural satellite?|القمر|The Moon|المريخ|Mars|الشمس|The Sun|الزهرة|Venus
+ما الكوكب المعروف بحلقاته البارزة؟|Which planet is famous for its prominent rings?|زحل|Saturn|الأرض|Earth|عطارد|Mercury|المريخ|Mars
+ما رمز الماء الكيميائي؟|What is the chemical formula of water?|H2O|H2O|CO2|CO2|O2|O2|NaCl|NaCl
+ما الغاز الذي يحتاجه الإنسان للتنفس؟|Which gas do humans need for breathing?|الأكسجين|Oxygen|الهيليوم|Helium|النيون|Neon|الأرجون|Argon
+ما العضو الذي يضخ الدم؟|Which organ pumps blood?|القلب|The heart|الرئة|The lung|المعدة|The stomach|الكلية|The kidney
+ما العضو المسؤول أساساً عن التفكير؟|Which organ is primarily responsible for thinking?|الدماغ|The brain|القلب|The heart|الكبد|The liver|المعدة|The stomach
+أي حاسة تستخدم الأذن؟|Which sense uses the ears?|السمع|Hearing|البصر|Sight|الذوق|Taste|الشم|Smell
+أي حاسة تستخدم الأنف؟|Which sense uses the nose?|الشم|Smell|السمع|Hearing|البصر|Sight|اللمس|Touch
+ما الحيوان الأطول بين الحيوانات البرية الحية؟|Which living land animal is the tallest?|الزرافة|The giraffe|الفيل|The elephant|الحصان|The horse|الأسد|The lion
+ما أسرع حيوان بري في العدو لمسافة قصيرة؟|Which land animal is fastest in a short sprint?|الفهد الصياد|The cheetah|الأسد|The lion|الذئب|The wolf|الحصان|The horse
+ما أكبر حيوان حي؟|What is the largest living animal?|الحوت الأزرق|The blue whale|الفيل|The elephant|الزرافة|The giraffe|التمساح|The crocodile
+كم ذراعاً للأخطبوط؟|How many arms does an octopus have?|8|8|6|6|10|10|4|4
+كم رجلاً للعنكبوت؟|How many legs does a spider have?|8|8|6|6|4|4|10|10
+كم رجلاً للحشرة البالغة عادةً؟|How many legs does an adult insect normally have?|6|6|8|8|4|4|10|10
+ما الحشرة التي تنتج العسل؟|Which insect produces honey?|النحلة|The bee|النملة|The ant|الذبابة|The fly|الجرادة|The grasshopper
+أي حيوان من هذه الحيوانات من الثدييات؟|Which of these animals is a mammal?|الخفاش|The bat|الحمامة|The pigeon|التمساح|The crocodile|السلمون|The salmon
+أي طائر من هذه الطيور لا يستطيع الطيران؟|Which of these birds cannot fly?|البطريق|The penguin|الصقر|The falcon|الحمامة|The pigeon|العصفور|The sparrow
+ما عاصمة مصر؟|What is the capital of Egypt?|القاهرة|Cairo|الإسكندرية|Alexandria|الأقصر|Luxor|أسوان|Aswan
+ما عاصمة الأردن؟|What is the capital of Jordan?|عمان|Amman|إربد|Irbid|العقبة|Aqaba|الزرقاء|Zarqa
+ما عاصمة لبنان؟|What is the capital of Lebanon?|بيروت|Beirut|طرابلس|Tripoli|صيدا|Sidon|صور|Tyre
+ما عاصمة فرنسا؟|What is the capital of France?|باريس|Paris|ليون|Lyon|مرسيليا|Marseille|نيس|Nice
+ما عاصمة اليابان؟|What is the capital of Japan?|طوكيو|Tokyo|أوساكا|Osaka|كيوتو|Kyoto|ناغويا|Nagoya
+ما عاصمة إيطاليا؟|What is the capital of Italy?|روما|Rome|ميلانو|Milan|نابولي|Naples|البندقية|Venice
+ما عاصمة إسبانيا؟|What is the capital of Spain?|مدريد|Madrid|برشلونة|Barcelona|إشبيلية|Seville|فالنسيا|Valencia
+أي قارة تقع فيها البرازيل؟|Which continent contains Brazil?|أمريكا الجنوبية|South America|أوروبا|Europe|آسيا|Asia|أفريقيا|Africa
+أي قارة تقع فيها كينيا؟|Which continent contains Kenya?|أفريقيا|Africa|أوروبا|Europe|آسيا|Asia|أستراليا|Australia
+ما أكبر قارات العالم مساحةً؟|Which continent has the largest area?|آسيا|Asia|أوروبا|Europe|أفريقيا|Africa|أمريكا الجنوبية|South America
+ما الأداة التي تقيس درجة الحرارة؟|Which instrument measures temperature?|ميزان الحرارة|A thermometer|البوصلة|A compass|المسطرة|A ruler|الميزان|A scale
+ما الأداة التي تحدد الاتجاهات؟|Which instrument indicates directions?|البوصلة|A compass|الساعة|A clock|المجهر|A microscope|السماعة|A speaker
+ما الأداة التي تكبر الأجسام الدقيقة؟|Which instrument magnifies very small objects?|المجهر|A microscope|البوصلة|A compass|المطرقة|A hammer|الميزان|A scale
+كم بتاً في البايت؟|How many bits are in a byte?|8|8|4|4|16|16|2|2
+ما الرقمان المستخدمان في النظام الثنائي؟|Which digits are used in binary?|0 و1|0 and 1|1 و2|1 and 2|2 و3|2 and 3|5 و6|5 and 6
+أي جهاز يستخدم لإدخال الحروف إلى الحاسوب؟|Which device is used to type letters into a computer?|لوحة المفاتيح|A keyboard|الشاشة|A monitor|السماعة|A speaker|الطابعة|A printer
+أي جهاز يطبع المستندات على الورق؟|Which device prints documents on paper?|الطابعة|A printer|الفأرة|A mouse|الشاشة|A monitor|الميكروفون|A microphone
+ما اللون الناتج عن مزج الصبغتين الحمراء والزرقاء؟|What color results from mixing red and blue pigments?|البنفسجي|Purple|الأخضر|Green|البرتقالي|Orange|الأصفر|Yellow
+كم يوماً في شهر أبريل؟|How many days are in April?|30|30|28|28|29|29|31|31
+كم يوماً في شهر يناير؟|How many days are in January?|31|31|28|28|29|29|30|30
+كم ساعة في اليوم؟|How many hours are in a day?|24|24|12|12|48|48|60|60
+كم شهراً في نصف سنة؟|How many months are in half a year?|6|6|3|3|4|4|8|8
+ما ناتج 9 مضروباً في 9؟|What is nine multiplied by nine?|81|81|72|72|90|90|99|99
+ما نصف العدد 50؟|What is half of fifty?|25|25|20|20|15|15|30|30
+ما الشكل الذي ليس له زوايا؟|Which shape has no corners?|الدائرة|A circle|المربع|A square|المثلث|A triangle|المستطيل|A rectangle
+[riddles]
+تكتب به ويقصر كلما بريته، ما هو؟|You write with it and it gets shorter when sharpened. What is it?|قلم الرصاص|A pencil|الكوب|A cup|المشط|A comb|المفتاح|A key
+له عين واحدة ويمر الخيط منها، ما هو؟|It has one eye that thread passes through. What is it?|الإبرة|A needle|المرآة|A mirror|النافذة|A window|الباب|A door
+يكرر كلامك في الوادي ولا يملك لساناً، ما هو؟|It repeats your words in a valley without a tongue. What is it?|الصدى|An echo|المطر|Rain|الظل|A shadow|القمر|The moon
+تراه في الضوء ويتبعك ولا يمكنك الإمساك به، ما هو؟|It follows you in the light but cannot be grabbed. What is it?|الظل|A shadow|الكتاب|A book|الكرسي|A chair|الكوب|A cup
+يدخل الغرفة من النافذة دون أن يفتحها، ويجعلها مضيئة، ما هو؟|It enters through the window without opening it and lights the room. What is it?|ضوء الشمس|Sunlight|المطر|Rain|الغبار|Dust|الصندوق|A box
+له عقارب ولا يلدغ، ما هو؟|It has hands that tell time but cannot sting. What is it?|الساعة|A clock|المشط|A comb|المفتاح|A key|القلم|A pen
+له رقبة وليس له رأس، ويحتوي شرابك، ما هو؟|It has a neck but no head and holds your drink. What is it?|الزجاجة|A bottle|الكرسي|A chair|الكتاب|A book|الحذاء|A shoe
+تفتح به الأبواب وقد تحمله في جيبك، ما هو؟|You carry it in a pocket and use it to open doors. What is it?|المفتاح|A key|الملعقة|A spoon|المشط|A comb|الجرس|A bell
+كلما زاد ضوء الشمعة نقص جسمها، ما هي؟|Its body gets smaller while its flame burns. What is it?|الشمعة|A candle|المرآة|A mirror|الساعة|A clock|النافذة|A window
+بيت تحمله السلحفاة على ظهرها، ما هو؟|The protective home a turtle carries on its back. What is it?|الصدفة|A shell|الحقيبة|A bag|الخيمة|A tent|الصندوق|A box
+ينزل من السحاب قطرات ويسقي الأرض، ما هو؟|It falls from clouds in drops and waters the ground. What is it?|المطر|Rain|الدخان|Smoke|الظل|A shadow|الرمل|Sand
+ماء صلب يذوب في الدفء، ما هو؟|Solid water that melts when warmed. What is it?|الثلج|Ice|الملح|Salt|السكر|Sugar|الرمل|Sand
+شجرة تعطينا التمر، ما هي؟|Which tree gives us dates?|النخلة|A date palm|التفاحة|An apple tree|الزيتونة|An olive tree|البرتقالة|An orange tree
+تلبسه في قدميك ليحميهما عند المشي، ما هو؟|You wear it on your foot for protection while walking. What is it?|الحذاء|A shoe|القفاز|A glove|القبعة|A hat|الوشاح|A scarf
+يدور فوق رأسك في الغرفة ليحرك الهواء، ما هو؟|It spins above your head indoors to move the air. What is it?|مروحة السقف|A ceiling fan|الساعة|A clock|المصباح|A lamp|الجرس|A bell
+سطح مصقول ترى فيه صورتك، ما هو؟|A polished surface in which you see your reflection. What is it?|المرآة|A mirror|الحائط|A wall|الستارة|A curtain|البساط|A rug
+تحمل كتبك داخله على ظهرك، ما هو؟|You carry your books in it on your back. What is it?|حقيبة الظهر|A backpack|الصحن|A plate|الكوب|A cup|الحذاء|A shoe
+يخبرك بالأخبار على ورق وتقرأه صباحاً، ما هو؟|It brings news on paper and is often read in the morning. What is it?|الجريدة|A newspaper|الملعقة|A spoon|المفتاح|A key|الوسادة|A pillow
+أسنان كثيرة تنظف بها أسنانك، ما هي؟|You use its many bristles to clean your teeth. What is it?|فرشاة الأسنان|A toothbrush|المشط|A comb|الشوكة|A fork|المسطرة|A ruler
+تفتحها فوق رأسك لتحتمي من المطر، ما هي؟|You open it above your head to stay out of the rain. What is it?|المظلة|An umbrella|النافذة|A window|الدفتر|A notebook|الستارة|A curtain
+طريق من حديد يسير عليه القطار، ما هو؟|An iron track that trains travel on. What is it?|السكة الحديدية|A railway|الجسر|A bridge|الرصيف|A sidewalk|النهر|A river
+مكان تحفظ فيه الطعام بارداً، ما هو؟|You store food in it to keep it cold. What is it?|الثلاجة|A refrigerator|الفرن|An oven|الخزانة|A cupboard|المدفأة|A heater
+يرفع الناس بين طوابق المبنى داخل حجرة، ما هو؟|It carries people between floors inside a cabin. What is it?|المصعد|An elevator|السلم|A ladder|الجسر|A bridge|القطار|A train
+جسم زجاجي في المصباح ينير الغرفة عند تشغيله، ما هو؟|A glass part of a lamp that lights a room when switched on. What is it?|المصباح الكهربائي|A light bulb|الكأس|A glass|المرآة|A mirror|النافذة|A window
+يوقظك بصوته في الوقت الذي تحدده، ما هو؟|It wakes you with a sound at a time you choose. What is it?|المنبه|An alarm clock|الميزان|A scale|المشط|A comb|المجهر|A microscope
+ورقة مرسومة ترشدك إلى البلدان والطرق، ما هي؟|A drawing on paper showing countries and roads. What is it?|الخريطة|A map|الصورة الشخصية|A portrait|الفاتورة|A bill|الرسالة|A letter
+يلتصق بالحديد دون غراء، ما هو؟|It sticks to iron without glue. What is it?|المغناطيس|A magnet|الخشب|Wood|البلاستيك|Plastic|الورق|Paper
+كوكب نعيش عليه، ما هو؟|The planet we live on. What is it?|الأرض|Earth|المريخ|Mars|عطارد|Mercury|نبتون|Neptune
+يخرج من إبريق الماء الساخن ويختفي في الهواء، ما هو؟|It rises from a hot kettle and disperses into the air. What is it?|البخار|Steam|التراب|Soil|الزيت|Oil|الرمل|Sand
+تأكل به الحساء دون أن تلمس الطعام بيدك، ما هو؟|You use it to eat soup without touching the food. What is it?|الملعقة|A spoon|المسطرة|A ruler|المشط|A comb|المفتاح|A key
+له أربع أرجل وتجلس عليه، ما هو؟|It has four legs and you sit on it. What is it?|الكرسي|A chair|الخزانة|A cupboard|النافذة|A window|الصندوق|A box
+تضع رأسك عليها عند النوم، ما هي؟|You rest your head on it when sleeping. What is it?|الوسادة|A pillow|الطاولة|A table|المرآة|A mirror|الرف|A shelf
+أداة مستقيمة تقيس بها طول خط، ما هي؟|A straight tool used to measure the length of a line. What is it?|المسطرة|A ruler|الفرشاة|A brush|الجرس|A bell|المصباح|A lamp
+تجمع أوراقك وتكتب فيه واجباتك، ما هو؟|Bound pages where you write your homework. What is it?|الدفتر|A notebook|الحذاء|A shoe|الكوب|A cup|المظلة|An umbrella
+تضغط أزراره فتسمع نغمات موسيقية، ما هو؟|You press its keys to make musical notes. What is it?|البيانو|A piano|الطبلة|A drum|الناي|A flute|الجرس|A bell
+صندوق بريد صغير في هاتفك تستقبل فيه رسائل إلكترونية، ما هو؟|A digital mailbox on your phone for electronic letters. What is it?|البريد الإلكتروني|Email|الكاميرا|A camera|الآلة الحاسبة|A calculator|المنبه|An alarm
+[kat]
+كت: أي فصل من السنة يشبه شخصيتك؟|Kat: Which season matches your personality?
+كت: ما المكان الذي تشعر فيه بالراحة؟|Kat: Where do you feel most relaxed?
+كت: ما أول شيء تفعله في يوم الإجازة؟|Kat: What do you do first on a day off?
+كت: اختر عنواناً لفيلم عن يومك.|Kat: Give a film about your day a title.
+كت: ما الهواية التي لا تمل منها؟|Kat: Which hobby never bores you?
+كت: لو امتلكت مكتبة، ما أول كتاب تضعه فيها؟|Kat: What would be the first book in your own library?
+كت: ما أكثر صوت تحب سماعه؟|Kat: Which sound do you enjoy most?
+كت: قهوة أم شاي؟|Kat: Coffee or tea?
+كت: صباح هادئ أم سهرة ممتعة؟|Kat: A peaceful morning or a fun evening?
+كت: ما الوجبة التي تجيد إعدادها؟|Kat: Which meal can you cook well?
+كت: لو فتحت مطعماً، ماذا ستسميه؟|Kat: What would you name your restaurant?
+كت: ما المهارة التي تود تعليمها للآخرين؟|Kat: Which skill would you like to teach others?
+كت: ما أجمل منظر طبيعي شاهدته؟|Kat: What is the most beautiful landscape you have seen?
+كت: ما الشيء البسيط الذي يسعدك؟|Kat: What small thing makes you happy?
+كت: اختر شخصية خيالية لترافقك في رحلة.|Kat: Choose a fictional character to travel with.
+كت: لو أصبحت طائراً ليوم، أين ستطير؟|Kat: If you were a bird for a day, where would you fly?
+كت: ما اللعبة التي تذكرك بطفولتك؟|Kat: Which game reminds you of your childhood?
+كت: ما اللون الذي تختاره لغرفتك؟|Kat: Which color would you choose for your room?
+كت: رحلة برية أم رحلة بحرية؟|Kat: A road trip or a sea trip?
+كت: ما الشيء الذي تحب جمعه؟|Kat: What do you enjoy collecting?
+كت: لو تعلمت آلة موسيقية، ماذا تختار؟|Kat: Which musical instrument would you learn?
+كت: ما أفضل وقت للقراءة لديك؟|Kat: When do you prefer to read?
+كت: ما المشروع الصغير الذي تتمنى تنفيذه؟|Kat: Which small project would you like to build?
+كت: اختر كلمة تصف أسبوعك.|Kat: Choose one word to describe your week.
+كت: ما الموهبة التي تود اكتشافها في نفسك؟|Kat: Which talent would you like to discover in yourself?
+كت: ما أفضل طريقة للاحتفال بإنجاز صغير؟|Kat: How would you celebrate a small achievement?
+كت: لو زرعت شجرة، أي نوع تختار؟|Kat: What type of tree would you plant?
+كت: ما المدينة الخيالية التي تتمنى زيارتها؟|Kat: Which fictional city would you like to visit?
+كت: ما العنصر الذي تختاره في لعبة خيالية: ماء أم نار أم هواء؟|Kat: Which fantasy element would you choose: water, fire or air?
+كت: ما الشيء الذي يجعلك تضحك بسرعة؟|Kat: What makes you laugh quickly?
+كت: لو كان لديك روبوت مساعد، ما أول مهمة تعطيه إياها؟|Kat: What would be your robot assistant's first task?
+كت: أي نوع من الرحلات تفضّل؟|Kat: What kind of trip do you prefer?
+كت: ما اختراعك الخيالي المفضل؟|Kat: What imaginary invention would you like most?
+كت: ما أفضل رائحة بالنسبة لك؟|Kat: What is your favorite smell?
+كت: هل تفضل الكتاب الورقي أم الإلكتروني؟|Kat: Do you prefer paper books or ebooks?
+كت: ما النشاط الذي يمنحك طاقة؟|Kat: Which activity energizes you?
+كت: ما أكثر شيء تحبه في مدينتك؟|Kat: What do you like most about your city?
+كت: ما الشيء الذي تود تعلمه عن الفضاء؟|Kat: What would you like to learn about space?
+كت: أي حيوان تختاره بطلاً لقصة؟|Kat: Which animal would be the hero of your story?
+كت: ما اسم فريقك الخيالي؟|Kat: What would you name your imaginary team?
+كت: لو صممت حديقة، ماذا تضيف إليها؟|Kat: What would you add to a garden you designed?
+كت: ما أكثر مادة دراسية أحببتها؟|Kat: Which school subject did you enjoy most?
+كت: أي لعبة جماعية تقترح للأصدقاء؟|Kat: Which group game would you suggest to friends?
+كت: ما الشيء الذي تفضّل صنعه بيدك؟|Kat: What would you prefer to make by hand?
+كت: ما عنوان قائمة أغانيك المفضلة؟|Kat: What would you name your favorite playlist?
+كت: لو امتلكت تلسكوباً، ماذا تريد أن ترى؟|Kat: What would you look at through a telescope?
+كت: ما نوع القصص الذي يجذبك؟|Kat: Which type of story interests you?
+كت: اختر ثلاث كلمات تصف المجموعة.|Kat: Choose three words to describe the group.
+كت: لو نظمت مهرجاناً، ما موضوعه؟|Kat: What would be the theme of a festival you organized?
+كت: ما أفضل مفاجأة بسيطة يمكن أن تتلقاها؟|Kat: What small surprise would you enjoy most?
+كت: ما الشيء الذي تريد تحسينه في روتينك؟|Kat: What would you improve in your routine?
+كت: هل تفضل التخطيط أم العفوية في الرحلات؟|Kat: Do you prefer planned or spontaneous trips?
+كت: ما الأداة التي لا تستغني عنها في هوايتك؟|Kat: Which tool is essential for your hobby?
+كت: لو اخترت اسماً لكوكب جديد، ماذا سيكون؟|Kat: What would you name a newly discovered planet?
+كت: ما الشيء الذي تود تصويره بكاميرا احترافية؟|Kat: What would you photograph with a professional camera?
+كت: ما صفتك المفضلة في الصديق؟|Kat: What is your favorite quality in a friend?
+كت: ما الرسالة التي تختصر يومك؟|Kat: What short message sums up your day?
+كت: ما الشيء الذي تود إضافته إلى هذه اللعبة؟|Kat: What would you add to this game?
+كت: لو كان لديك متجر ألعاب، ماذا تعرض في الواجهة؟|Kat: What would be in the window of your toy shop?
+كت: أي نوع من الطقس يلائم مزاجك اليوم؟|Kat: Which weather matches your mood today?
+[challenges]
+تحدٍ: اكتب جملة من خمس كلمات عن البحر.|Challenge: Write a five-word sentence about the sea.
+تحدٍ: اذكر خمس فواكه.|Challenge: Name five fruits.
+تحدٍ: اذكر أربع مدن تبدأ بحروف مختلفة.|Challenge: Name four cities with different first letters.
+تحدٍ: اصنع اسماً مضحكاً لفريق خيالي.|Challenge: Invent a funny name for an imaginary team.
+تحدٍ: اكتب بيتاً قصيراً عن القهوة.|Challenge: Write a short verse about coffee.
+تحدٍ: اذكر ثلاثة أشياء دائرية.|Challenge: Name three round objects.
+تحدٍ: اكتب جملة لا تحتوي على حرف الميم.|Challenge: Write a sentence without the letter M.
+تحدٍ: صف الشتاء دون استخدام كلمة برد.|Challenge: Describe winter without using the word cold.
+تحدٍ: اذكر خمس كلمات تبدأ بحرف السين.|Challenge: Name five words beginning with S.
+تحدٍ: اصنع إعلاناً من سطر واحد لكوب شاي.|Challenge: Write a one-line advertisement for a cup of tea.
+تحدٍ: اختصر قصة معروفة في ثلاث كلمات.|Challenge: Summarize a familiar story in three words.
+تحدٍ: اذكر أربعة ألوان دون الأبيض والأسود.|Challenge: Name four colors other than black and white.
+تحدٍ: اكتب رسالة من المستقبل إلى نفسك في سطر واحد.|Challenge: Write a one-line message from your future self.
+تحدٍ: اذكر ثلاث هوايات لا تحتاج شاشة.|Challenge: Name three hobbies that do not need a screen.
+تحدٍ: اختر ثلاث رموز تعبيرية تصنع بها قصة.|Challenge: Tell a story using three emojis.
+تحدٍ: اكتب عنواناً طريفاً لصحيفة خيالية.|Challenge: Write a funny headline for an imaginary newspaper.
+تحدٍ: اذكر خمسة أشياء تجدها في المطبخ.|Challenge: Name five things found in a kitchen.
+تحدٍ: اكتب سؤالاً إجابته كلمة نعم.|Challenge: Write a question whose answer is yes.
+تحدٍ: صف القمر دون ذكر لونه.|Challenge: Describe the moon without mentioning its color.
+تحدٍ: اذكر ثلاث كلمات تنتهي بالحرف نفسه.|Challenge: Name three words ending in the same letter.
+تحدٍ: اصنع اسماً لمدينة فوق السحاب.|Challenge: Invent a name for a city above the clouds.
+تحدٍ: اكتب حواراً من سطرين بين كتاب وقلم.|Challenge: Write a two-line conversation between a book and a pen.
+تحدٍ: اذكر ثلاثة أشياء تبدأ بحرف الباء.|Challenge: Name three things beginning with B.
+تحدٍ: اكتب جملة تكون كلماتها مرتبة من الأقصر إلى الأطول.|Challenge: Write a sentence with words ordered from shortest to longest.
+تحدٍ: اختر عنوان فيلم باستخدام كلمتين فقط.|Challenge: Create a movie title using only two words.
+تحدٍ: اذكر أربعة حيوانات تعيش في الماء.|Challenge: Name four animals that live in water.
+تحدٍ: اصنع وصفة خيالية للسعادة من ثلاثة مكونات.|Challenge: Invent a happiness recipe with three ingredients.
+تحدٍ: اكتب شعاراً لفريقك في أربع كلمات.|Challenge: Write a four-word slogan for your team.
+تحدٍ: اذكر ثلاث مهارات تود تعلمها.|Challenge: Name three skills you would like to learn.
+تحدٍ: اصنع لغزاً قصيراً عن شيء أمامك.|Challenge: Create a short riddle about something near you.
+تحدٍ: اكتب بداية قصة فيها مفتاح قديم.|Challenge: Write the opening of a story featuring an old key.
+تحدٍ: اذكر خمس كلمات مرتبطة بالربيع.|Challenge: Name five words associated with spring.
+تحدٍ: اختر اسماً لمقهى على القمر.|Challenge: Name a cafe on the moon.
+تحدٍ: اكتب رسالة ترحيب من ثلاث كلمات.|Challenge: Write a three-word welcome message.
+تحدٍ: صف المطر بجملة قصيرة.|Challenge: Describe rain in one short sentence.
+تحدٍ: اذكر ثلاث أشياء تجمعها حقيبة سفر.|Challenge: Name three things to pack in a suitcase.
+تحدٍ: اصنع شخصية كرتونية وامنحها هواية.|Challenge: Invent a cartoon character and give it a hobby.
+تحدٍ: اكتب جملة تبدأ وتنتهي بالكلمة نفسها.|Challenge: Write a sentence that starts and ends with the same word.
+تحدٍ: اختر لوناً واذكر ثلاثة أشياء منه.|Challenge: Choose a color and name three things of that color.
+تحدٍ: اكتب نهاية سعيدة لقصة من سطر واحد.|Challenge: Write a one-line happy ending to a story.
