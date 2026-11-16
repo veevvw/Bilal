@@ -1,0 +1,188 @@
+/*
+ * TgMusicBot - Telegram Music Bot
+ *  Copyright (c) 2025-2026 Ashok Shau
+ *
+ *  Licensed under GNU GPL v3
+ *  See https://github.com/AshokShau/TgMusicBot
+ */
+
+package bot
+
+import (
+	"ashokshau/tg-web/internal/config"
+	"ashokshau/tg-web/internal/utils"
+	"fmt"
+	"strings"
+
+	td "github.com/AshokShau/gotdbot"
+)
+
+func getHelpCategories(chatID int64) map[string]struct {
+	Title   string
+	Content string
+	Markup  *td.ReplyMarkupInlineKeyboard
+} {
+	return map[string]struct {
+		Title   string
+		Content string
+		Markup  *td.ReplyMarkupInlineKeyboard
+	}{
+		"help_user": {
+			Title: tr(chatID, "User Commands"),
+			Content: tr(chatID, `<p>Commands available to all members of the chat.</p>
+
+<details open>
+  <summary>Playback</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/play [song]</code></td><td>Play music from YouTube, Spotify, SoundCloud, and other supported platforms via the Web Player.</td></tr>
+    <tr><td><code>/fplay [song]</code></td><td>Play a track immediately, skipping the current queue.</td></tr>
+    <tr><td><code>/player</code></td><td>Open the interactive Web Player lounge.</td></tr>
+  </table>
+</details>
+
+<details>
+  <summary>General</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/start</code></td><td>Start the bot or verify that it is online.</td></tr>
+    <tr><td><code>/help</code></td><td>Open the interactive help menu.</td></tr>
+    <tr><td><code>/ping</code></td><td>Display the bot's response time and system information.</td></tr>
+    <tr><td><code>/privacy</code></td><td>Read how the bot and player use data, and how to request deletion.</td></tr>
+    <tr><td><code>/queue</code></td><td>Display the current playback queue.</td></tr>
+  </table>
+</details>`),
+			Markup: localizedKeyboard(chatID, utils.BackHelpMenuKeyboard()),
+		},
+		"help_admin": {
+			Title: tr(chatID, "Admin Commands"),
+			Content: tr(chatID, `<p>Commands available to chat administrators and authorized users.</p>
+
+<details open>
+  <summary>Playback Control</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/skip</code></td><td>Skip the currently playing track.</td></tr>
+    <tr><td><code>/pause</code></td><td>Pause playback.</td></tr>
+    <tr><td><code>/resume</code></td><td>Resume playback.</td></tr>
+    <tr><td><code>/seek [seconds]</code></td><td>Jump to a specific position in the current track.</td></tr>
+    <tr><td><code>/stop</code></td><td>Stop playback and clear the room state.</td></tr>
+    <tr><td><code>/mute</code></td><td>Mute guidance message for Web Player.</td></tr>
+    <tr><td><code>/unmute</code></td><td>Unmute guidance message for Web Player.</td></tr>
+  </table>
+</details>
+
+<details>
+  <summary>Queue & Access</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/remove [index]</code></td><td>Remove a track from the queue by its position.</td></tr>
+    <tr><td><code>/loop [0-10]</code></td><td>Repeat the current track the specified number of times.</td></tr>
+    <tr><td><code>/auth</code></td><td>Authorize a user to use administrator commands.</td></tr>
+    <tr><td><code>/unauth</code></td><td>Remove a user's authorization.</td></tr>
+    <tr><td><code>/authlist</code></td><td>Show all authorized users in the current chat.</td></tr>
+    <tr><td><code>/reload</code></td><td>Refresh administrator cache.</td></tr>
+  </table>
+</details>`),
+			Markup: localizedKeyboard(chatID, utils.BackHelpMenuKeyboard()),
+		},
+		"help_devs": {
+			Title: tr(chatID, "Developer Commands"),
+			Content: tr(chatID, `<p>Commands intended for bot developers and maintainers.</p>
+
+<details open>
+  <summary>System</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/stats</code></td><td>Display bot, hosting, and database statistics.</td></tr>
+    <tr><td><code>/av</code></td><td>View active voice and video chats.</td></tr>
+    <tr><td><code>/logger</code></td><td>View the current logging configuration.</td></tr>
+  </table>
+</details>`),
+			Markup: localizedKeyboard(chatID, utils.BackHelpMenuKeyboard()),
+		},
+		"help_owner": {
+			Title: tr(chatID, "Chat Owner Commands"),
+			Content: tr(chatID, `<p>Configuration options available to the chat owner.</p>
+
+<details open>
+  <summary>Chat Settings</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/settings</code></td><td>Manage chat settings, including play mode, administrator mode, command auto-delete, and language preferences.</td></tr>
+  </table>
+</details>`),
+			Markup: localizedKeyboard(chatID, utils.BackHelpMenuKeyboard()),
+		},
+		"help_playlist": {
+			Title: tr(chatID, "Playlist Commands"),
+			Content: tr(chatID, `<p>Create, organize, and manage your personal playlists.</p>
+
+<details open>
+  <summary>Playlist Management</summary>
+  <table bordered striped>
+    <tr><th>Command</th><th>Description</th></tr>
+    <tr><td><code>/createplaylist</code></td><td>Create a new playlist.</td></tr>
+    <tr><td><code>/deleteplaylist</code></td><td>Delete one of your playlists.</td></tr>
+    <tr><td><code>/addtoplaylist</code></td><td>Add a track to a playlist.</td></tr>
+    <tr><td><code>/removefromplaylist</code></td><td>Remove a track from a playlist.</td></tr>
+    <tr><td><code>/playlistinfo</code></td><td>Display information about a playlist.</td></tr>
+    <tr><td><code>/myplaylists</code></td><td>List all of your playlists.</td></tr>
+  </table>
+</details>`),
+			Markup: localizedKeyboard(chatID, utils.BackHelpMenuKeyboard()),
+		},
+	}
+}
+
+func helpCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
+	data := cb.DataString()
+
+	user, err := c.GetUser(cb.SenderUserId)
+	if err != nil {
+		user = &td.User{FirstName: "User", Id: cb.SenderUserId}
+	}
+
+	helpCategories := getHelpCategories(cb.ChatId)
+
+	if strings.Contains(data, "help_all") {
+		_ = cb.Answer(c, tr(cb.ChatId, "Opening help menu..."), nil)
+		response := fmt.Sprintf(
+			tr(cb.ChatId, "<h3>Welcome, %s!</h3>\n")+
+				tr(cb.ChatId, "<p><b>%s</b> is a fast, reliable, and feature-rich Web Player music bot for Telegram.</p>\n\n")+
+				tr(cb.ChatId, "<p><b>Supported platforms:</b> YouTube, Spotify, Apple Music, SoundCloud, Deezer, Twitch, and many more.</p>\n\n")+
+				tr(cb.ChatId, "<p>Select a category below to browse the available commands.</p>"),
+			user.FirstName,
+			config.BrandName,
+		)
+
+		_, _ = utils.EditControlMessage(c, cb.ChatId, cb.MessageId, response, &td.EditMessageTextOpts{ReplyMarkup: localizedKeyboard(cb.ChatId, utils.HelpMenuKeyboard())})
+		return nil
+	}
+
+	if strings.Contains(data, "help_back") {
+		_ = cb.Answer(c, tr(cb.ChatId, "Returning to main menu..."), nil)
+
+		response := fmt.Sprintf(
+			tr(cb.ChatId, "<h3>Welcome, %s!</h3>\n")+
+				tr(cb.ChatId, "<p><b>%s</b> lets you stream high-quality synchronized music via Telegram Web Player.</p>\n\n")+
+				tr(cb.ChatId, "<p><b>Supported platforms:</b> YouTube, Spotify, Apple Music, SoundCloud, Deezer, Twitch, and many more.</p>\n\n")+
+				tr(cb.ChatId, "<p>Use the buttons below to add the bot to your group or explore the available commands.</p>"),
+			user.FirstName,
+			config.BrandName,
+		)
+
+		_, _ = utils.EditControlMessage(c, cb.ChatId, cb.MessageId, response, &td.EditMessageTextOpts{ReplyMarkup: localizedKeyboard(cb.ChatId, utils.AddMeMarkup(c.Me().Usernames.EditableUsername))})
+		return nil
+	}
+
+	if category, ok := helpCategories[data]; ok {
+		_ = cb.Answer(c, category.Title, nil)
+		response := fmt.Sprintf(tr(cb.ChatId, "<h3>%s</h3>\n\n%s\n\n<i>Use the buttons below to go back.</i>"), category.Title, category.Content)
+		_, _ = utils.EditControlMessage(c, cb.ChatId, cb.MessageId, response, &td.EditMessageTextOpts{ReplyMarkup: category.Markup})
+		return nil
+	}
+
+	_ = cb.Answer(c, tr(cb.ChatId, "Unknown help category."), nil)
+	return nil
+}
