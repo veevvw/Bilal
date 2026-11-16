@@ -28,7 +28,7 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 		return nil
 	}
 
-	// === أضف السطور هنا ليتمكن الأعضاء العاديون من استخدامها ===
+	
 	if strings.HasPrefix(data, "vote:skip") {
 		return voteSkipCallbackHandler(c, cb)
 	}
@@ -42,7 +42,7 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 	}
 
 	chatID := cb.ChatId
-    // ... باقي الكود الأصلي كما هو ...
+    
 
 
 	if !adminModeCB(c, cb) {
