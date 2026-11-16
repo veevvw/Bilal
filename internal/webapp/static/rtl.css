@@ -1,0 +1,11 @@
+﻿/* Direction applies to layout and author text; media timelines keep their order. */
+.language-switch { position:fixed; inset-inline-end:12px; bottom:calc(12px + env(safe-area-inset-bottom)); z-index:1000; display:flex; gap:8px; align-items:center; padding:6px 10px; border-radius:12px; background:var(--surface,#272c35); color:var(--text,#f3f5f9); border:1px solid #657080; font:inherit; font-size:12px; }
+.language-switch select { font:inherit; color:inherit; background:inherit; border:0; padding:4px; }
+.session-blocked > .language-switch { visibility:visible; }
+.app-shell:not([hidden]) ~ .language-switch { display:none; }
+html[dir=rtl] body { text-align:start; }
+html[dir=rtl] .track-title, html[dir=rtl] .track-artist, html[dir=rtl] .chat-message, html[dir=rtl] .setting-row, html[dir=rtl] .profile-link { text-align:start; }
+html[dir=rtl] .back-icon, html[dir=rtl] .browser-back .icon { transform:scaleX(-1); }
+html[dir=rtl] input[type=range], html[dir=rtl] audio, html[dir=rtl] .player-time, html[dir=rtl] code { direction:ltr; }
+html[dir=rtl] .track-title, html[dir=rtl] .track-artist, html[dir=rtl] .chat-message-text { unicode-bidi:plaintext; }
+html[dir=rtl] .sidebar { border-inline-end:1px solid var(--border,transparent); }
