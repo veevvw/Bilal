@@ -28,6 +28,23 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 		return nil
 	}
 
+	// === أضف السطور هنا ليتمكن الأعضاء العاديون من استخدامها ===
+	if strings.HasPrefix(data, "vote:skip") {
+		return voteSkipCallbackHandler(c, cb)
+	}
+	if strings.HasPrefix(data, "song:download") {
+		return downloadCurrentSongCallback(c, cb)
+	}
+	// ========================================================
+
+	if !adminModeCB(c, cb) {
+		return td.EndGroups
+	}
+
+	chatID := cb.ChatId
+    // ... باقي الكود الأصلي كما هو ...
+
+
 	if !adminModeCB(c, cb) {
 		return td.EndGroups
 	}
