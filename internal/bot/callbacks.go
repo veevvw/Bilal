@@ -24,7 +24,7 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 	data := cb.DataString()
 	if strings.Contains(data, "play_close") {
 		_ = cb.Answer(c, tr(cb.ChatId, "Closing..."), &td.CallbackAnswerOpts{ShowAlert: false})
-		_ = c.DeleteMessages(cb.ChatId, []int64{cb.MessageId}, &td.DeleteMessagesOpts{Revoke: true})
+		_ = cb.DeleteMessages(cb.ChatId, []int64{cb.MessageId}, &td.DeleteMessagesOpts{Revoke: true})
 		return nil
 	}
 
@@ -166,7 +166,7 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 		moved := false
 		for _, track := range cache.ChatCache.GetQueue(chatID) {
 			if track != nil && utils.PlayNowCallbackData(track.TrackID) == data {
-				moved = cache.ChatCache.MakeActiveTrack(chatID, track.TrackID) // أو دالة التحريك حسب الكود الأصلي
+				moved = cache.ChatCache.MoveTrackToFront(chatID, track.TrackID)
 				break
 			}
 		}
@@ -190,7 +190,6 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 	return nil
 }
 
-// دالة مساعدة لتجنب خطأ undefined: downloadCurrentSongCallback في حال لم تكن معرفة بملف آخر
 func downloadCurrentSongCallback(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 	_ = cb.Answer(c, tr(cb.ChatId, "Downloading track..."), &td.CallbackAnswerOpts{ShowAlert: false})
 	return nil
