@@ -1,0 +1,22 @@
+services:
+  tg-web:
+    build: .
+    env_file: .env
+    ports:
+      - "${PORT:-8080}:${PORT:-8080}"
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 15s
+    volumes:
+      - telegram-data:/app/td
+      - telegram-downloads:/app/downloads
+      - ./secrets:/app/secrets:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  telegram-data:
+  telegram-downloads:

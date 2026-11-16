@@ -1,0 +1,18 @@
+services:
+  music:
+    image: shahm-music-new:20261115
+    container_name: shahm-music-new-20261115
+    env_file: .env
+    ports:
+      - "6061:6061"
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 15s
+    volumes:
+      - ./state/td:/app/td
+      - ./state/downloads:/app/downloads
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
