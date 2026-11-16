@@ -24,7 +24,7 @@ func playCallbackHandler(c *td.Client, cb *td.UpdateNewCallbackQuery) error {
 	data := cb.DataString()
 	if strings.Contains(data, "play_close") {
 		_ = cb.Answer(c, tr(cb.ChatId, "Closing..."), &td.CallbackAnswerOpts{ShowAlert: false})
-		_ = cb.DeleteMessages(cb.ChatId, []int64{cb.MessageId}, &td.DeleteMessagesOpts{Revoke: true})
+		_ = c.DeleteMessages(cb.ChatId, []int64{cb.MessageId}, &td.DeleteMessagesOpts{Revoke: true}) // تم التصحيح هنا لاستخدام c بدلاً من cb
 		return nil
 	}
 
